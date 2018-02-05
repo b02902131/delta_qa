@@ -1,0 +1,8 @@
+keras
+tensorflow
+numpy
+pandas
+django
+jieba
+gensim
+h5py

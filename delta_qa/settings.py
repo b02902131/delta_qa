@@ -119,3 +119,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# construct keras models
+from qa_model.qa_api import myQAModel
+
+qaModel = myQAModel()
+
+# import template tags for auto refresh static files
+from qa.templatetags import static_no_cache

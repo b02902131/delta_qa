@@ -1,0 +1,7 @@
+# Make migration
+$ python manage.py makemigrations [app name]
+$ python manage.py sqlmigrate qa 0001
+$ python manage.py migrate
+
+# Post request need this
+@csrf_exempt
